@@ -7,6 +7,7 @@ SELECT * FROM members;
 SELECT * FROM rental_table;
 SELECT * FROM return_id;
 
+
 INSERT INTO issued_emp_id(issued_id, issued_member_id, issued_book_name, issued_date, issued_book_isbn, issued_emp_id)
 VALUES
 ('IS151', 'C118', 'The Catcher in the Rye', CURRENT_DATE - INTERVAL '24 days',  '978-0-553-29698-2', 'E108'),
